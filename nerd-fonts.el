@@ -42,7 +42,7 @@
 (defun nerd-fonts--propertize (glyph)
   "Return a copy of GLYPH with text properties added."
   (propertize glyph
-              'face '(:family "Hack Nerd Font" :height 1.5)))
+              'face '(:family "VictorMono Nerd Font" :height 1.5)))
 
 (defun nerd-fonts--construct-candidates ()
   "Return a list of (STRING . GLYPH)."
